@@ -1,0 +1,27 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.row {
+  --bs-gutter-x: 25px; 
+  --bs-gutter-y: 25px; 
+}
+
+img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
